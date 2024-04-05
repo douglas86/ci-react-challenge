@@ -1,1 +1,1 @@
-import css from './css/Sidebar.module.css'
+import css from '../styles/Sidebar.module.css'
