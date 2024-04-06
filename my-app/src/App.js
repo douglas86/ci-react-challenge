@@ -1,11 +1,11 @@
 import css from './App.module.css';
-import SearchBar from "./components/SearchBar";
+import ContentHooks from "./components/ContentHooks";
 
 function App() {
     return (
         <div className={css.App}>
             <div>
-                <SearchBar/>
+                <ContentHooks/>
             </div>
         </div>
     );
