@@ -1,11 +1,12 @@
 import css from './App.module.css';
-import HttpRequests from "./components/HttpRequests";
+import HttpPost from "./components/HttpPost";
+import ContentAPI from "./components/ContentAPI";
 
 function App() {
     return (
         <div className={css.App}>
             <div>
-                <HttpRequests/>
+                <ContentAPI/>
             </div>
         </div>
     );
